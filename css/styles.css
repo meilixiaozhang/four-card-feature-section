@@ -1,0 +1,147 @@
+body {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 200;
+  margin: 0;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+}
+
+img {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+h3 {
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.box {
+  width: 350px;
+  height: 250px;
+  border-radius: 8px;
+  box-shadow: 0 12px 16px hsl(0, 0%, 98%);
+  margin: 15px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.box-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.box-content {
+  padding: 30px 30px;
+}
+
+.box-text {
+  line-height: 23px;
+  font-weight: 400;
+}
+
+.containers {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-color {
+  height: 4px;
+}
+
+.top-heading {
+  text-align: center;
+  max-width: 540px;
+  padding: 0 20px;
+  margin: 80px auto 48px;
+}
+
+#line-two .title {
+  font-weight: 600;
+}
+
+#supervisor .top-color {
+  background-color: hsl(180, 62%, 55%);
+}
+
+#team-builder .top-color {
+  background-color: hsl(0, 78%, 62%);
+}
+
+#karma .top-color {
+  background-color: hsl(34, 97%, 64%);
+}
+
+#calculator .top-color {
+  background-color: hsl(212, 86%, 64%);
+}
+
+@media screen and (max-width: 1140px) {
+
+    .containers {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 26px;
+        letter-spacing: 0;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 26px;
+        letter-spacing: 0;
+        font-weight: 200;
+        margin: 0;
+        line-height: 30px;
+    }
+
+    h3 {
+        font-size: 16px;
+        letter-spacing: 0;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+    .top-heading {
+        margin-top: 40px;
+    }
+
+}
